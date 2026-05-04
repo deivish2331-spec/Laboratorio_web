@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Personal - Deyvis Hernandez</title>
+    
+    <!-- BOOTSTRAP CSS CDN - Necesario para los botones -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet">
+    
+    <!-- Bootstrap Icons (opcional, para íconos bonitos) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- Contenedor principal con un poco de margen -->
+    <div class="container my-4">
+        
+        <!-- Título principal -->
+        <h1>Deyvis Hernandez</h1>
+        
+        <!-- BOTÓN 1: Botón primario (azul) para descargar CV -->
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">
+                <i class="bi bi-download"></i> Descargar CV
+            </a>
+            <a href="#" class="btn btn-outline-secondary">
+                <i class="bi bi-share"></i> Compartir perfil
+            </a>
+        </div>
+
+        <!-- Biografía -->
+        <h2>Biografía</h2>
+        <p>Hola, soy Deyvis Hernandez, estudiante de Ingeniería en Informática en la Universidad de Panamá. Apasionado por la tecnología, el desarrollo web y la programación. Me gusta aprender cosas nuevas y enfrentar desafíos que me permitan crecer profesionalmente.</p>
+        
+        <!-- BOTONES 2: Botones de contacto debajo de la biografía -->
+        <div class="mb-3">
+            <button class="btn btn-success">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+            </button>
+            <button class="btn btn-info text-white">
+                <i class="bi bi-envelope"></i> Correo
+            </button>
+            <button class="btn btn-dark">
+                <i class="bi bi-github"></i> GitHub
+            </button>
+        </div>
+
+        <!-- Mi foto -->
+        <h2>Mi foto</h2>
+        <img src="ingeniero.png" alt="Foto de perfil de Deyvis Hernandez" width="200">
+
+        <!-- Habilidades -->
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5 y CSS3 <button class="btn btn-sm btn-outline-primary ms-2">Ver más</button></li>
+            <li>JavaScript básico <button class="btn btn-sm btn-outline-primary ms-2">Ver más</button></li>
+            <li>Python <button class="btn btn-sm btn-outline-primary ms-2">Ver más</button></li>
+            <li>Trabajo en equipo <button class="btn btn-sm btn-outline-success ms-2">+ Info</button></li>
+            <li>Resolución de problemas <button class="btn btn-sm btn-outline-success ms-2">+ Info</button></li>
+        </ul>
+
+        <!-- Formación Académica -->
+        <h2>Formación Académica</h2>
+        <ol>
+            <li>Educación Primaria - Escuela XYZ</li>
+            <li>Educación Secundaria - Instituto XYZ</li>
+            <li>Licenciatura en Ingeniería en Informática - Universidad de Panamá (en curso)</li>
+        </ol>
+
+        <!-- Horario de Clases -->
+        <h2>Horario de Clases</h2>
+        <table border="1" class="table table-bordered">
+            <tr>
+                <th>Día</th>
+                <th>Materia</th>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Lunes</td>
+                <td>Programación Web</td>
+                <td>7:00 PM - 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>Base de Datos</td>
+                <td>7:00 PM - 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>Estructura de Datos</td>
+                <td>7:00 PM - 9:00 PM</td>
+            </tr>
+        </table>
+
+        <!-- Enlace Profesional -->
+        <h2>Enlace Profesional</h2>
+        <p>Visita mi perfil en <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+        
+        <!-- BOTÓN 3: Botón grande para LinkedIn -->
+        <div class="mb-3">
+            <a href="https://www.linkedin.com/" target="_blank" class="btn btn-primary btn-lg">
+                <i class="bi bi-linkedin"></i> Conectar en LinkedIn
+            </a>
+        </div>
+
+        <!-- Contáctame con BOTONES mejorados -->
+        <h2>Contáctame</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            <br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+            <br><br>
+            <!-- BOTONES 4: Botones de enviar (con diferentes colores) -->
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpiar</button>
+            <button type="button" class="btn btn-warning">Cancelar</button>
+        </form>
+
+        <!-- Mi música favorita -->
+        <h2>Mi música favorita</h2>
+        <audio controls>
+            <source src="mi-audio.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        
+        <!-- BOTÓN 5: Botón para subir arriba -->
+        <div class="mt-4">
+            <a href="#" class="btn btn-danger">
+                <i class="bi bi-arrow-up"></i> Subir arriba
+            </a>
+        </div>
+        
+    </div>
+
+    <!-- BOOTSTRAP JS (necesario para algunos botones como los que abren modales) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
